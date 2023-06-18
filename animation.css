@@ -1,0 +1,32 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: turquoise ;
+    margin-top: 200px;
+    margin-left: 200px;
+    transition: 1s ease-in-out;
+    /* animation: anim 1s ease-in 1s infinite; */
+}
+div:hover{
+
+    /* transform: rotate(45 deg); */
+    /* transform: scale(.4) rotate(90deg);
+    transform: skew(45deg); */
+    transform: translateY(200px) rotate(180deg) scale(.4);
+
+    
+}
+/* @keyframes anim{
+    0%{
+        width: 5px;
+        background-color: chartreuse;
+    }
+    50%{
+        width: 200px;
+        background-color: darkblue;
+    }
+    100%{
+        width: 0px;
+        background-color: rgb(226, 43, 107);
+    }
+} */

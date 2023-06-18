@@ -1,0 +1,19 @@
+div{
+    width: 50%;
+    background-color: blueviolet;
+}
+@media(orientation:portrait)
+/* (min-width:600px) and (max-width:1000px) */
+{
+    div{
+        background-color: brown;
+    }
+    p{
+        color: antiquewhite;
+        font-size: xx-large;
+    }
+    span{
+        display: none;
+    }
+
+}
